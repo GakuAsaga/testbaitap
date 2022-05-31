@@ -22,9 +22,19 @@
 
 
 
-// let a = parseInt(prompt('nhap so a: '))
-// let b = parseInt(prompt('nhap so b: '))
-// let array = [a, b];
+let a = parseInt(prompt('nhap so a: '))
+let b = parseInt(prompt('nhap so b: '))
+
+if (a> 0 && b >0 && ( a >= b || a == b)) {
+    alert("Nhap lai a < b, a > 0 , b > 0")
+} else {
+    for (let i = a; i <= b; i++) {
+        for (let j = 1; j < i; j++) {
+            if (i % j === 0) {
+                console.log(i);
+            }
+        }
+    }
+}
 
 
-// console.log(array[2]);

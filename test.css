@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:wght@900&family=Poppins:wght@500&family=Roboto&family=Source+Sans+Pro:wght@200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0 10%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.tab-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 1013px;
+    height: 64px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.item-1 {
+    border: 1px solid #BFC8E6;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 327px;
+    height: 64px;
+    padding: 16px;
+    gap: 16px;
+}
+
+#search {
+    color: rgb(124, 124, 124);
+    font-size: 16px;
+
+}
+
+.item-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    width: 534px;
+    height: 56px;
+    border-radius: 4px;
+}
+
+.item-2>li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 121px;
+    height: 56px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #151B32;
+    opacity: 0.8;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    margin-top: 50px;
+    gap: 16px;
+
+    width: 1013px;
+    height: 432px;
+
+}
+
+.big-block-1{
+    display: flex;
+    flex-direction: row;
+    width: 1013px;
+    height: 208px;
+}
+
+.menu-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+    width: 327px;
+    height: 208px;
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+
+.mini-item-1 {
+    width: 97px;
+    height: 97px;
+    background-image: url(https://icon-library.com/images/dota-icon/dota-icon-7.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    flex: none;
+    order: 0;
+}
+
+.mini-item-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 132px;
+    height: 106px;
+}
+
+.block-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 0;
+    gap: 4px;
+    width: 162px;
+    height: 68px;
+}
+
+.block-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 129px;
+    height: 22px;
+}
+
+.block-2>li {
+    display: flex;
+    color: #516FD4;
+    border-radius: 4px;
+    border: 1px solid #BFC8E6;
+    font-size: 12px;
+    padding: 0 4px;
+
+}
+.big-block-2{
+    display: flex;
+    flex-direction: row;
+    width: 1013px;
+    height: 208px;
+}
